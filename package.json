@@ -4,7 +4,9 @@
   "description": "",
   "main": "webpack.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./server.js",
+    "build": "Webpack -v"
   },
   "repository": {
     "type": "git",
@@ -23,6 +25,9 @@
     "babel-loader": "^8.0.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
+    "express": "^4.16.3",
+    "mysql": "^2.16.0",
+    "nodemon": "^1.18.3",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "webpack": "^4.17.1",
